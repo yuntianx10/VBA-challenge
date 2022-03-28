@@ -13,7 +13,7 @@ The bonus code returns the "Greatest % increase", "Greatest % decrease", and "Gr
 1. Define and initialize variables
 2. If statement to check if still the same name when looping each row by using Cells(i+1,column).Value <> Cells(i,column).Value
 3. Conditional formatting of the interior color of each cell using Cells(row,column).Interior.ColorIndex = #
-4. If statement to determine the greatest value in range of cells
+4. If statement to determine the greatest value in a certain range of cells
 5. Determine the number of rows: Cells(Rows.Count, 1).End(xlUp).Row
 6. For Each ws In Worksheets
 
