@@ -65,6 +65,7 @@ For i = 2 To LastRow
       Cells(Summary_Row, 9).Value = Ticket_Name
       Cells(Summary_Row, 10).Value = Yearly_Change
       Cells(Summary_Row, 11).Value = Percent_Change
+        Cells(Summary_Row, 11).NumberFormat = "0.00%)
       Cells(Summary_Row, 12).Value = Total_Volume
       
       ' Set the Conditional formatting for yearly change
