@@ -67,6 +67,7 @@ For Each ws In Worksheets
         ws.Cells(Summary_Row, 9).Value = Ticket_Name
         ws.Cells(Summary_Row, 10).Value = Yearly_Change
         ws.Cells(Summary_Row, 11).Value = Percent_Change
+        ws.Cells(Summary_Row, 11).NumberFormat = "0.00%"
         ws.Cells(Summary_Row, 12).Value = Total_Volume
       
       ' Set the Conditional formatting for yearly change
@@ -130,6 +131,8 @@ Next i
         End If
     
     ws.Cells(2, 17).Value = Max_Percent_Increase
+    ws.Cells(2, 17).NumberFormat = "0.00%"
+    
     ws.Cells(2, 16).Value = Ticker_Name2
 
 ' Compare the values of each percent change to determine the largest percent decrease
@@ -139,6 +142,8 @@ Next i
         End If
     
     ws.Cells(3, 17).Value = Max_Percent_Decrease
+    ws.Cells(3, 17).NumberFormat = "0.00%"
+    
     ws.Cells(3, 16).Value = Ticker_Name3
     
 ' Compare the values of each total stock volume to determine the largest total stock volume
@@ -157,5 +162,8 @@ Next ws
 MsgBox ("Analysis completed!")
         
 End Sub
+
+
+
 
 
