@@ -1,6 +1,6 @@
 # VBA-challenge
 ## Project Description and Motivation
-In the second week, we focused on the microsoft's event-driven programming languate - Visual Basic of Applications (VBA). Start from here, we gradually transition to use programming tools for data analysis. In this VBA-challenge, we aim to use VBA scripting to analyze generated stock market data. 
+In the second week of Data Science Bootcamp, we focused on the microsoft's event-driven programming languate - Visual Basic of Applications (VBA). Start from here, we gradually transition to use programming tools for data analysis. In this VBA-challenge, we aim to use VBA scripting to analyze generated stock market data. 
 
 ## Tasks
 The VBA script loops through all the stocks for each year and outputs the following information:
