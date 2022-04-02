@@ -12,9 +12,9 @@ The VBA script loops through all the stocks for each year and outputs the follow
 The bonus code returns the "Greatest % increase", "Greatest % decrease", and "Greatest total volume". Make the appropriate adjustments to your VBA script to allow it to run on every worksheet (that is, every year) just by running the VBA script once.
 
 ## Results
-![alt=""](Results Screenshots/Results_2018.jpg)
-![alt=""](Results Screenshots/Results_2019.jpg)
-![alt=""](Results Screenshots/Results_2020.jpg)
+![alt=""](https://github.com/yuntianx10/VBA-challenge/blob/main/Results%20Screenshots/Results_2018.jpg "Summary Table 2018")
+![alt=""](https://github.com/yuntianx10/VBA-challenge/blob/main/Results%20Screenshots/Results_2019.jpg "Summary Table 2019")
+![alt=""](https://github.com/yuntianx10/VBA-challenge/blob/main/Results%20Screenshots/Results_2020.jpg "Summary Table 2020")
 
 
 ## Key VBA functionalities used in this challenge: 
