@@ -17,7 +17,7 @@ The bonus code returns the "Greatest % increase", "Greatest % decrease", and "Gr
 ![alt=""](https://github.com/yuntianx10/VBA-challenge/blob/main/Results%20Screenshots/Results_2020.jpg "Summary Table 2020")
 
 
-## Key VBA functionalities used in this challenge: 
+## Key VBA Functionalities Used
 1. Define and initialize variables
 2. If statement to check if still the same name when looping each row by using Cells(i+1,column).Value <> Cells(i,column).Value
 3. Conditional formatting of the interior color of each cell using Cells(row,column).Interior.ColorIndex = #
